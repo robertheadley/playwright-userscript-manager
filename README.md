@@ -299,7 +299,7 @@ The `GM_setValue`, `GM_getValue`, `GM_deleteValue`, and `GM_listValues` function
 This project was developed with assistance from:
 
 *   [GitHub Copilot](https://github.com/features/copilot)
-*   Roo Code (VS Code Extension)
+*   [Roo Code - VScode extention](https://github.com/RooVetGit/Roo-Code)
 *   [Google Gemini](https://gemini.google.com/)
 ## License
 
