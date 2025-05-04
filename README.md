@@ -278,7 +278,7 @@ The `GM_setValue`, `GM_getValue`, `GM_deleteValue`, and `GM_listValues` function
 *   The polyfill should store these registered commands in a way accessible to the main script (e.g., attaching them to the `window` object like `window.__registeredMenuCommands = window.__registeredMenuCommands || {}; window.__registeredMenuCommands[commandName] = callbackFunction;`).
 *   You can execute a registered command after the page loads by passing its name via the `--run-menu-command` or `-m` CLI option. The runner will find the corresponding callback function and execute it within the page context.
 
-## Browser Extensions
+## Browser Extensions (In development, probably doesn't work)
 
 *   You can load unpacked browser extensions (e.g., for testing interactions or providing additional APIs) using the `--extensions` or `-e` option.
 *   Provide a comma-separated list of paths to the directories containing the `manifest.json` file for each extension.
